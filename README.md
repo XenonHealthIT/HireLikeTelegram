@@ -1,6 +1,6 @@
 # Hire Like Telegram
 
-This repository develops a selective, evidence-based hiring process for a small global engineering team. It borrows Telegram's emphasis on open entry, difficult assessments, realistic work, and repeated evidence while adding structured evaluation, candidate feedback, paid finalist trials, and an absolute quality bar.
+This repository develops a selective, evidence-based hiring process for a small global engineering team. It borrows Telegram's emphasis on open entry, difficult assessments, realistic work, and repeated evidence while adding structured evaluation, candidate feedback, and an absolute quality bar.
 
 ## Proposed hiring process
 
@@ -12,14 +12,10 @@ This repository develops a selective, evidence-based hiring process for a small 
 | R2A | 60–90 minute algorithm-coding assessment | Test difficult algorithmic problem solving and implementation |
 | R2B | 45–60 minute computer-fundamentals assessment | Test applied knowledge of operating systems, concurrency, networking, databases, runtimes, and security |
 | R3 | 45–60 minute mathematics assessment | Verify the mathematical standard required by company policy and the role |
-| R4 | 3–5 hour realistic role challenge | Gather direct evidence of performance on representative work |
-| R5 | Blind review and hidden tests | Score artifacts consistently and test edge cases and robustness |
-| R6 | 60–90 minute feedback/change round | Measure debugging, adaptability, and response to feedback |
-| R7 | Structured artifact defense | Verify authorship, depth, judgment, and communication |
-| R8 | Paid half-day or one-day collaboration trial | Observe execution and collaboration with future colleagues |
+| R4 | Multi-stage role evidence round | Create a realistic artifact, evaluate it blindly, revise it after feedback, and defend it in a structured interview |
 | Decision | Absolute quality bar | Hire every candidate who meets the bar—or hire nobody |
 
-Early rounds are efficient filters. Later, higher-fidelity stages carry more decision weight. R2A and R2B are separately scored gates: strength in coding does not erase a serious fundamentals gap, and theoretical knowledge does not compensate for non-functional code.
+Early rounds are efficient filters. The higher-fidelity R4 round carries more decision weight and contains four connected stages: a 3–5 hour role challenge, blind scoring with hidden tests, a 60–90 minute feedback/change stage, and an approximately 60-minute structured artifact defense. R2A and R2B are separately scored gates: strength in coding does not erase a serious fundamentals gap, and theoretical knowledge does not compensate for non-functional code.
 
 ## Repository structure
 

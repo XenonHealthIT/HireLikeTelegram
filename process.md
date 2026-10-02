@@ -16,11 +16,7 @@ The process is intentionally selective, but difficulty must come from job-releva
 | R2A — algorithm coding | 60–90 minutes | Efficiently filter for algorithmic problem solving and implementation strength | Primary coding gate |
 | R2B — computer fundamentals | 45–60 minutes | Verify practical command of core computing concepts | Primary knowledge gate |
 | R3 — mathematics assessment | 45–60 minutes | Measure the required level of mathematical fluency | Gate |
-| R4 — realistic role challenge | 3–5 hours | Observe performance on work resembling the actual role | Major score |
-| R5 — blind scoring and hidden tests | No additional candidate time | Evaluate the artifact consistently and test robustness | Major score |
-| R6 — feedback and change round | 60–90 minutes | Measure learning speed, debugging, and response to change | Major score |
-| R7 — structured artifact defense | About 60 minutes | Verify authorship, depth, judgment, and communication | Major score |
-| R8 — paid collaboration trial | 4–8 hours, finalists only | Observe real collaboration with future colleagues | Final evidence |
+| R4 — role evidence round | 5–7.5 hours across multiple stages | Evaluate realistic work, robustness, revision, authorship, and judgment | Major score |
 | Final decision | — | Apply the absolute hiring bar across all evidence | Hire / no hire |
 
 ## Entry principles
@@ -144,7 +140,11 @@ Role-specific modules may add discrete mathematics for software roles, linear al
 
 Use a separately reported math score rather than hiding it inside a general score. Establish a minimum threshold in advance, pilot the test with strong current employees, and review whether the threshold distinguishes job performance. The math result should be treated as a gate where company policy requires it, while the role challenge remains the strongest evidence of actual job performance.
 
-## R4 — realistic role challenge
+## R4 — role evidence round
+
+R4 is one continuous round built around the same candidate artifact. It has four stages: initial creation, blind evaluation, revision after feedback, and structured defense. Keeping these activities together makes their relationship explicit and avoids treating four observations of the same work as unrelated rounds.
+
+### Stage 1 — realistic role challenge
 
 Candidates who pass the screening rounds receive a three-to-five-hour challenge within a broader scheduling window. The task should resemble work they might encounter during their first three months, while using synthetic, open-source, or deliberately isolated material rather than commercially useful unpaid work.
 
@@ -176,7 +176,7 @@ Recommended engineering rubric:
 
 Define critical failures independently of the numerical score. Examples include a major security vulnerability, destructive data handling, fabricated results, an un-runnable submission, or complete violation of a core requirement.
 
-## R5 — blind scoring and hidden tests
+### Stage 2 — blind scoring and hidden tests
 
 The initial artifact review is anonymous wherever feasible. Reviewers see a candidate identifier, submission, test results, and explanation, but not the candidate's name, school, nationality, photograph, or previous employers.
 
@@ -191,7 +191,7 @@ Evaluation rules:
 
 Hidden tests should cover realistic edge cases, regressions, performance constraints, malformed input, and other important behaviors not completely specified by the visible examples. They should not depend on arbitrary interpretations that a reasonable candidate could not infer.
 
-## R6 — feedback and change round
+### Stage 3 — feedback and change round
 
 Candidates who meet the role-challenge bar receive a 60–90 minute revision task. Give every candidate an equivalent combination of:
 
@@ -209,9 +209,9 @@ Evaluate whether the candidate:
 - communicates what changed; and
 - respectfully challenges feedback when it is incorrect or unsafe.
 
-This round measures rate of improvement, judgment under change, and ability to work with review—not blind obedience.
+This stage measures rate of improvement, judgment under change, and ability to work with review—not blind obedience.
 
-## R7 — structured artifact defense
+### Stage 4 — structured artifact defense
 
 The structured defense verifies that the candidate understands and owns the submitted work. It also gathers consistent evidence about technical depth, judgment, learning, and communication.
 
@@ -226,21 +226,6 @@ Every candidate receives the same core prompts, adapted only where their artifac
 7. What did you learn that would change your approach if you restarted?
 
 Interviewers must use behavioral anchors. A high score requires accurate explanation, recognition of non-obvious tradeoffs and limitations, and appropriate updating when presented with new evidence. Two assessors should score independently before holding a decision discussion.
-
-## R8 — paid collaboration trial
-
-For the final two or three candidates, use a paid half-day or one-day exercise. The work should be role-aligned, self-contained, and safe to perform outside production.
-
-The candidate should:
-
-- receive a small project or problem;
-- communicate asynchronously with future colleagues;
-- make assumptions and request missing information;
-- receive a review;
-- revise the work; and
-- deliver a clear final handoff.
-
-Assess both individual output and whether the candidate makes the team more effective. Do not turn the trial into extended speculative labor. State compensation, ownership, confidentiality, expected availability, and deliverables in writing before the trial.
 
 ## Tool and AI policy
 
@@ -260,8 +245,7 @@ Recommended decision rules:
 
 - Each required gate and minimum subscore must be met.
 - No unresolved critical failure may remain.
-- The role challenge, change round, and structured defense form the core hiring evidence.
-- The paid trial is final evidence for collaboration and execution, not a ceremonial step.
+- All four stages of R4 form the core hiring evidence and should be reviewed together.
 - Pedigree, charisma, and cohort rank cannot override failure to meet the quality bar.
 - A candidate who meets the absolute bar may be hired even if another candidate scores higher.
 - The company may hire nobody when no candidate meets the bar.
