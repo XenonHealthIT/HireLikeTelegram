@@ -11,11 +11,11 @@ The process is intentionally selective, but difficulty must come from job-releva
 | Stage | Typical candidate time | Primary purpose | Decision |
 | --- | ---: | --- | --- |
 | Application and eligibility | 5–10 minutes | Confirm basic requirements without filtering on pedigree | Eligibility gate |
-| R0 — monitored general aptitude assessment | Existing test duration | Preliminary screening using the company's SAT-like test | Gate |
+| R0 — monitored general aptitude assessment (optional) | Existing test duration | Additional preliminary screening using the company's SAT-like test | Optional gate |
 | R1 — practical reasoning screen | 45–60 minutes | Measure applied logic, data reasoning, comprehension, and communication | Gate |
 | R2A — algorithm coding | 60–90 minutes | Efficiently filter for algorithmic problem solving and implementation strength | Primary coding gate |
 | R2B — computer fundamentals | 45–60 minutes | Verify practical command of core computing concepts | Primary knowledge gate |
-| R3 — mathematics assessment | 45–60 minutes | Measure the required level of mathematical fluency | Gate |
+| R3 — mathematical problem-solving assessment | 60 minutes | Measure difficult abstract, quantitative, and proof-oriented reasoning | Gate |
 | R4 — role evidence round | 5–7.5 hours across multiple stages | Evaluate realistic work, robustness, revision, authorship, and judgment | Major score |
 | Final decision | — | Apply the absolute hiring bar across all evidence | Hire / no hire |
 
@@ -27,9 +27,9 @@ The process is intentionally selective, but difficulty must come from job-releva
 - Give candidates clear information about the stages, expected time, permitted tools, accommodations, and data handling before they begin.
 - Use multiple equivalent test forms or controlled scheduling windows so that geography and time zone do not become selection criteria.
 
-## R0 — monitored general aptitude assessment
+## R0 — monitored general aptitude assessment (optional)
 
-The company will retain its existing monitored SAT-like assessment as the preliminary screen. It should establish a broad baseline in general reasoning, language, and quantitative ability before the company spends significant reviewer time on a candidate.
+The company may use its existing monitored SAT-like assessment as an additional preliminary screen when applicant volume, role requirements, or hiring policy justify it. When R0 is omitted, eligible candidates proceed directly to R1. When used, R0 should establish a broad baseline in general reasoning, language, and quantitative ability before the company spends significant reviewer time on a candidate.
 
 Operational requirements:
 
@@ -40,7 +40,7 @@ Operational requirements:
 - Periodically check whether the test predicts success in later rounds and whether it excludes groups in ways unrelated to job performance.
 - Do not use an exceptionally high R0 score to compensate for failure in later, job-relevant rounds.
 
-R0 is a preliminary gate, not a final measure of candidate quality.
+R0 is an optional preliminary gate, not a final measure of candidate quality.
 
 ## R1 — practical reasoning screen
 
@@ -124,21 +124,26 @@ R2A and R2B have separate minimum thresholds. A strong fundamentals score cannot
 
 Because R2 is a high-volume filter, R2A normal-case and hidden-test scoring and the objective portions of R2B should be automated where possible. Human review should focus on explanations, borderline results, suspected assessment problems, and integrity checks.
 
-## R3 — mathematics assessment
+## R3 — mathematical problem-solving assessment
 
-All candidates complete a dedicated mathematics round as required by company policy. The assessment should have a documented purpose and a level appropriate to the role.
+All candidates complete a dedicated mathematics round as required by company policy. This is not primarily an engineering-knowledge test. It is a difficult, proof-oriented problem-solving assessment intended to provide evidence about abstraction, persistence, pattern recognition, and rigorous reasoning under unfamiliar conditions. It should not be described as an IQ test unless it has been professionally validated for that claim.
+
+The recommended live form is 60 minutes with five questions worth 20 points each. Candidates are not expected to finish every question, and the rubric should award meaningful partial credit for correct reductions, useful lemmas, counterexamples, or substantial rigorous progress.
 
 The common core may cover:
 
-- arithmetic, ratios, percentages, and estimation;
-- algebraic manipulation;
-- probability and basic statistics;
-- interpretation of functions, tables, and graphs; and
-- multi-step quantitative reasoning.
+- elementary number theory and invariants;
+- combinatorics and discrete reasoning;
+- probability and counting;
+- algebra, functions, and inequalities;
+- sequences, elementary calculus, and asymptotic reasoning; and
+- proof construction and counterexamples.
 
-Role-specific modules may add discrete mathematics for software roles, linear algebra and probability for machine-learning roles, or other mathematics that is genuinely required by the work. Advanced topics should not be included merely to make the test harder.
+Each question must be self-contained and solvable from a declared syllabus. Supply any nonstandard formula or theorem that the item is not intended to test. Linear algebra or other college-course topics may be used only when that prerequisite is disclosed. Difficulty should come from selecting and combining ideas, not from obscure notation or specialized recall.
 
-Use a separately reported math score rather than hiding it inside a general score. Establish a minimum threshold in advance, pilot the test with strong current employees, and review whether the threshold distinguishes job performance. The math result should be treated as a gate where company policy requires it, while the role challenge remains the strongest evidence of actual job performance.
+The `R3-Questions` bank contains public source families and original example problems with solutions and 20-point rubrics. A raw-score average near 20/100 may be used as a pilot calibration target, but it must not be imposed by curving every cohort. A useful form needs an accessible entry point and enough partial-credit opportunities to distinguish candidates above and below that mean.
+
+Use a separately reported math score rather than hiding it inside a general score. Establish any minimum threshold before reviewing candidate identities, pilot every form with strong employees from varied educational backgrounds, and test whether R3 adds predictive value beyond the other rounds. Monitor subgroup outcomes and accommodations. The math result may be a gate where company policy requires it, while R4 remains the strongest evidence of actual job performance.
 
 ## R4 — role evidence round
 
