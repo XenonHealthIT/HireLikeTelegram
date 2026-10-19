@@ -48,9 +48,8 @@ The mapping is intentionally many-to-many. For example, coding produces engineer
 
 The process is open-entry and global. Current research recommends:
 
-- **Primary countries:** Romania and Bulgaria (EU, stable policy, strong algorithmic talent), followed by Poland, India, and the Philippines (existing presence).
-- **Conditional:** Ukraine and Georgia — simple contractor regimes but elevated geopolitical and sanctions risk.
-- **Engagement model:** full-time hires through an Employer of Record (EOR); contractors only for genuinely independent, deliverable-based work.
+- **Target countries:** Bulgaria, India, and Romania.
+- **Engagement model:** all hires are onboarded as independent contractors and are solely responsible for local reporting to tax and labor authorities.
 - **Sourcing:** because the process already works like a contest, competitive-programming channels (e.g. a sponsored Codeforces round or our own public prize contest) are the highest-signal source, supplemented by LinkedIn and local IT job boards.
 
 See [`country-hiring-research.md`](country-hiring-research.md) and [`sourcing-platforms.md`](sourcing-platforms.md). Both reflect research as of October 2026 and should be re-checked before each hiring cohort.
@@ -94,7 +93,7 @@ HireLikeTelegram/
 - [`deep-research-report.md`](deep-research-report.md) contains the research and rationale behind the overall process.
 - [`R1-reasoning_screen_report.md`](R1-reasoning_screen_report.md) contains the focused research and blueprint for the practical reasoning screen.
 - [`R1-Instructions.md`](R1-Instructions.md) specifies how an AI-assisted workflow should design and quality-check R1 items.
-- [`country-hiring-research.md`](country-hiring-research.md) compares candidate hiring countries by employment and contractor policy, employer cost, pay ranges, and local recruiting platforms.
+- [`country-hiring-research.md`](country-hiring-research.md) covers the target countries' contractor policy, reclassification risk, pay ranges, and local recruiting platforms.
 - [`sourcing-platforms.md`](sourcing-platforms.md) recommends sourcing channels, a per-country posting mix, job-ad principles, and a budget estimate.
 - [`Projects/initial_project_proposal.md`](Projects/initial_project_proposal.md) describes the first project proposed for the new hire: an automated data ingestion and enrichment pipeline for the outreach platform.
 
