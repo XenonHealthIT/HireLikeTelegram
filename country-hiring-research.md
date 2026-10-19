@@ -23,7 +23,7 @@
 **Management decision:** all hires are onboarded as **independent contractors** and are **solely responsible for local reporting to tax and labor authorities**. Poland and Ukraine are excluded.
 
 What this means in practice:
-- **US side:** a foreign contractor working entirely outside the US provides **Form W-8BEN** (or **W-8BEN-E** for a company). No Form 1099 and no US withholding.
+- **US side:** a foreign contractor working entirely outside the US provides **Form W-8BEN** (or **W-8BEN-E** for a company).
 - **Local side:** a contract label alone does not decide status. In every shortlisted country, authorities and courts look at the **actual working relationship**. If a contractor works like an employee (full-time, fixed hours, managed by us, working only for us), they or the local authorities can still claim employment rights and back contributions. The reporting clause shifts the *filing* duty to the contractor, but it does not fully remove that risk.
 
 To keep the contractor model defensible (for legal to confirm):
